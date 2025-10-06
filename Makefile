@@ -3,11 +3,11 @@ CXX       = g++
 CXXFLAGS  = -std=c++17 -Wall
 INCLUDES  = -Iinclude
 SRC       = src/main.cpp src/rungekuta.cpp src/utilidad.cpp
-TARGET    = bin/ocilador.exe
+TARGET    = bin/ocilador
 
 # AUXILIAR
 AUX_SRC   = scripts/map.cpp src/rungekuta.cpp
-AUX_TARGET= bin/auxiliar.exe
+AUX_TARGET= bin/auxiliar
 
 all: $(TARGET) $(AUX_TARGET)
 
