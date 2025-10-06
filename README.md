@@ -1,2 +1,10 @@
-# OsciladorDuffingAcoplado
-Programa modularizado en C++ en el que se simulan dos osciladores de Duffing acoplados por un resorte. El programa calcula mapas dinámicos, ilustraciones del sistema, mapas de Poincaré y coeficientes de Lyapunov.
+# Ocilador – Proyecto didáctico
+
+Programa en C++ en el que se implementa método Runge-Kuta 4 para
+el movimiento de un pendulo doble con ligadura no holonoma, con fricción.
+
+## Compilación
+
+```bash
+make          # produce el binario `ocilador`
+
